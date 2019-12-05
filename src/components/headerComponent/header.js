@@ -5,10 +5,7 @@ class Header extends React.Component {
   render() {
     return(
       <header className="header">
-          <div className="logo">
-            LOGO
-          </div>
-
+          <img src={require("./SWE_logo_white.png")} className="logo"/>
           <nav>
               <ul>
                   <li>

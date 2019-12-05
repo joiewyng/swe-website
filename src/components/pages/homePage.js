@@ -1,37 +1,78 @@
 import React, {Component} from 'react';
 import '../../default.css';
+import Header from '../headerComponent/header'
 class Homepage extends React.Component {
   render() {
     return(
         <div className="wrap">
-            <div className="frontpage">
-                <div>   
-                    <text className="SWE-intro">Society of Women Engineers</text>
+             
+            <div className="overlay">
+                <div className="frontpage"></div>
+                <Header />
+                <div className="SWE-intro">   
+                    <text>Society of Women Engineers</text>
                     <br/>
-                    <text className="SWE-motto">Aspiring. Advancing. Achieving</text>
+                    <text className="SWE-motto">Aspiring. Advancing. Achieving.</text>
                 </div>
+           
             </div>
+            
             <div className="container-fluid">
-                <h2>About Us</h2>
-                <div className="subcontent">
-                    <text className="subheading"> Who We Are</text>
-                    <br/>
-                    <text className="description">
-                        The Cornell Student Section of the Society of Women Engineers is 
-                        open to all (male and female) undergraduate and graduate students in 
-                        engineering and technical fields. Each year, we run numerous programs 
-                        and events to promote engineering, diversity, career and professional 
-                        development, academic support, and pre-college education.
-                    </text>
+                <div className="row">
+                    <div className="col-lg-5 leftcol">  
+                        <div className="subheading">ABOUT US</div>
+                        <h2> Who We Are</h2>
+                        <div className="subcontent">
+                            <text className="description">
+                                The Cornell Student Section of the Society of Women Engineers is 
+                                open to all (male and female) undergraduate and graduate students in 
+                                engineering and technical fields. Each year, we run numerous programs 
+                                and events to promote engineering, diversity, career and professional 
+                                development, academic support, and pre-college education.
+                            </text>
+                        </div>
+                    </div>
+                    <div className="col-lg-7 rightcol">
+                        <span class="vertcenter-helper"></span><img src={require("../../images/fa19/2019-SWE-eboard.JPEG")} id="infographic"></img>
+                    </div>
                 </div>
-                
-
-                <text className="subheading"> Our Mission</text>
-
             </div>
+                
+            <div className="container-fluid mission">  
+                <div className="row row-container ">   
+                    <text className="h2 row-heading"> Our Mission</text>
+                    <div className="subcontent">
+                        <text className="description row-description">
+                        We promote women in Engineering by advocating 
+                        the importance of diversity and by uniting resources to 
+                        <span className="colored-text"> encourage academic, leadership, 
+                        professional, and personal excellence </span> for the entire 
+                        Engineering community of Today and Tomorrow.
+                        </text>
+                    </div>
+                </div>
+            </div>
+            
+            <div className="container-fluid">  
+                  
+                <div className="h2 row-heading"> Event Highlights</div>
+                <div className="row"> 
+                    <div className="col-lg-4">
+                        <div className="placeholder"></div>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="placeholder"></div>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="placeholder"></div>
+                    </div>
+                </div>
+            </div>
+                
+            
         </div>
     );
   }
 }
 
-export default Homepage;;
+export default Homepage;

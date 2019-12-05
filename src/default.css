@@ -4,6 +4,7 @@ body {
     color: black;
     font-weight: 400;
     font-style: normal;
+    height: 100%;
 }
 
 a {
@@ -13,7 +14,9 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: pink;
+    color: rgb(82, 66, 102);
+    /* color: rgba(219, 197, 84) */
+    /* color: rgba(169, 169, 169); */
 }
 
 .container-fluid{
@@ -22,18 +25,23 @@ a:hover {
 }
 
 .header {
-    position: relative;
-    display: block;
+    /* position: relative;
+    display: block; */
+    position: absolute;
+    top: 0%;
     width: 100%;
     background-color: none;
-    color: black;
+    color: white;
     height: 80px;
+    background: transparent;
+
 }
 
 .logo {
     position: absolute;
-    top: 30px; 
-    left: 15px;
+    top: 20px; 
+    left: 25px;
+    height: 100%;
 }
 
 nav{
@@ -56,38 +64,68 @@ ul li{
 }
 
 nav a {
-    font-size: 15px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    letter-spacing: 1px;
     line-height: normal;
-    color: black;
+    color: white;
     padding: 10px;
 }
 
+.overlay {
+    background-color: rgba(0,0,0, .6) !important;
+}
+
 .frontpage {
-    background-image: url("images/homepage-background.JPG");
-    background-position: 60% 40%;
+    /* background-image: url("images/homepage-background.JPG"); */
+    background-image: url("images/homepage-background-purple-cropped.jpg");
+    background-position: 80% 20%;
     background-size: cover;
-    min-height: 680px;
+    min-height: 800px;
     width: 100%;
-    /* filter: blur(1.5px); */
+    filter: blur(1.8px);
     color: white;
-    text-align: center;
-    padding-top: 23%;
-    
+    /* background-blend-mode: darken !important; */
+    height: 100%;
+    background-position: center;
+    background-position-y: 33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-position-x: 10%; */
+
 
 }
 
 .SWE-intro {
-    line-height: 80px;
+    line-height: 70px;
     font-size: 60px;
+    color: white;
     font-weight: bold;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
 }
 
 .SWE-motto{
     font-size: 30px;
+    line-height: 30px;
+}
+
+.subheading {
+    /* font-weight: bold; */
+    font-size: 18px;
+    line-height: 23px;
 }
 
 h2 {
     font-weight: bold;
+    font-size: 40px;
 }
 
 /* .subheading {
@@ -96,7 +134,81 @@ h2 {
 } */
 
 .subcontent {
-    padding: 20px 0px;
+    padding-top: 20px;
+    /* padding-top: 0px; */
 }
 
+.description {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.rightcol {
+    padding: auto;
+}
+
+#infographic{
+    width: 90%;
+    align-self: center;
+    margin: auto;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+.vertcenter-helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.leftcol {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.row.row-container{
+    text-align: center;
+    display: block;
+}
+
+.row-heading{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.mission{
+    /* background-color: rgb(90,83,119); */
+    /* background-color: rgb(219,197,84); */
+    background-color: rgb(169,169,169);
+    color: white;
+}
+
+.row-description{
+    display: block;
+    width: 70%;
+    margin: auto;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+.container-fluid {
+    padding: 5% 10%;
+}
+
+.colored-text {
+    color: rgb(235, 214, 109);
+}
+
+.placeholder {
+    height: 300px;
+    margin: 20px;
+    margin-top: 30px;
+    /* background-color: rgb(235, 214, 109, .8); */
+    background-color: rgb(90,83,119, .7);
+    
+}
 
