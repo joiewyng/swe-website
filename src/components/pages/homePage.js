@@ -33,7 +33,7 @@ class Homepage extends React.Component {
                         </div>
                     </div>
                     <div className="col-lg-7 rightcol">
-                        <span class="vertcenter-helper"></span><img src={require("../../images/fa19/2019-SWE-eboard.JPEG")} id="infographic"></img>
+                        <span class="vertcenter-helper"></span><img src={require("../../images/fa19/2019-SWE-eboard.JPG")} id="infographic"></img>
                     </div>
                 </div>
             </div>
@@ -55,16 +55,28 @@ class Homepage extends React.Component {
             
             <div className="container-fluid">  
                   
-                <div className="h2 row-heading"> Event Highlights</div>
+                <div className="h2 row-heading" id="highlight-header"> Event Highlights</div>
                 <div className="row"> 
                     <div className="col-lg-4">
-                        <div className="placeholder"></div>
+                        <div className="highlight-container">
+                            <div className="highlight-image">
+                            </div>
+                            <div className="highlight-text">
+                                <div className="highlight-title">SWEek of Welcome</div>
+                                <div className="highlight-blurb">blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</div>
+                            </div>
+                        </div>
+                        
                     </div>
                     <div className="col-lg-4">
-                        <div className="placeholder"></div>
+                        <div className="placeholder">
+
+                        </div>
                     </div>
                     <div className="col-lg-4">
-                        <div className="placeholder"></div>
+                        <div className="placeholder">
+
+                        </div>
                     </div>
                 </div>
             </div>
