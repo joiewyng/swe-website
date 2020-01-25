@@ -21,9 +21,10 @@ a:hover {
 
 .container-fluid{
     line-height: 24px;
-    padding: 7% 10%;
+    /* padding: 7% 10%; */
 }
 
+/* Header */
 .header {
     /* position: relative;
     display: block; */
@@ -72,6 +73,22 @@ nav a {
     padding: 10px;
 }
 
+/* Footer */
+.footer{
+    background-color: #676569;
+    opacity: 90%;
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    width: 30px;
+    margin: 1%;
+}
+
+/* Homepage */
 .overlay {
     background-color: rgba(0,0,0, .6) !important;
 }
@@ -169,6 +186,7 @@ h2 {
 
 }
 
+/* Mission */
 .row.row-container{
     text-align: center;
     display: block;
@@ -183,8 +201,10 @@ h2 {
 .mission{
     /* background-color: rgb(90,83,119); */
     /* background-color: rgb(219,197,84); */
-    background-color: rgb(169,169,169);
+    /* background-color: rgb(169,169,169); */
+    background-color: #676569;
     color: white;
+    opacity: 90%;
 }
 
 .row-description{
@@ -203,44 +223,40 @@ h2 {
     color: rgb(235, 214, 109);
 }
 
-.highlight-image {
-    height: 360px;
+/* Event Highlights */
+.col-lg-4{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.highlight-container{
+    padding-bottom: 16px;
+}
+
+.highlight-image-1, .highlight-image-2, .highlight-image-3{
+    height: 320px;
     /* width: 80%; */
     overflow:hidden;
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-top: 25px;
-    background-image: linear-gradient(to bottom, rgba(245, 245, 245, 0) 50%, white 100%), url('images/fa19/2019-SWEek-of-Welcome.JPG');
+    margin-top: 30px;
+    background-image: linear-gradient(to bottom, rgba(245, 245, 245, 0) 70%, white 100%), url('images/fa19/2019-SWEek-of-Welcome.JPG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
 }
 
-.placeholder {
-    background-color: rgb(235, 214, 109, .6);
-    height: 400px;
-    /* width: 80%; */
-    overflow:hidden;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-top: 25px;
-    /* background-image: linear-gradient(to bottom, rgba(245, 245, 245, 0) 50%, white 100%), url('images/fa19/2019-SWEek-of-Welcome.JPG'); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+.highlight-image-2{
+    background-image: linear-gradient(to bottom, rgba(245, 245, 245, 0) 70%, white 100%), url('images/fa19/2019-WIE-Day.JPG');
 }
 
-/* .placeholder {
-    height: 400px;
-    position:absolute;
-    background-color: rgb(90,83,119, .7);
-} */
+.highlight-image-3{
+    background-image: linear-gradient(to bottom, rgba(245, 245, 245, 0) 70%, white 100%), url('images/fa19/2019-WE19.JPG');
+    background-position-y: 80%;
+}
 
 #highlight-header {
     padding: 10px 0px;
@@ -251,9 +267,47 @@ h2 {
 }
 
 .highlight-title {
-    font-size: 25px;
+    font-size: 23px;
+    font-weight: bold;
 }
 
 .highlight-blurb {
     padding: 10px 0px;
+    font-size: 13.5px;
 }
+
+#read-more{
+    padding: 25px;
+    font-size: 18px;
+    opacity: 50%;
+}
+
+/* Join SWE */
+.container-fluid.join-swe{
+    padding: 0%;
+}
+
+.join-swe .leftcol{
+    /* background-color: 	#5E587A; */
+    background-color:#666082;
+    /* opacity: 90%; */
+    color: white;
+    padding: 7% 5% 7% 11%;
+}
+
+.join-swe .rightcol{
+    padding: 7% 8% 7% 8%;
+    background-color: rgb(169,169,169, .2);
+}
+
+input{
+    margin: 5% 0%;
+    /* border-radius: 5px; */
+    line-height: 33px;;
+}
+
+.row-spacer{
+    height: 30px;
+}
+
+
