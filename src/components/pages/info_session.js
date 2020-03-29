@@ -26,6 +26,8 @@ class InfoSession extends Component {
                             <Button variant="secondary">Host an Information Session</Button>{' '}
                         </div>
                 </div>
+
+            
         );
     }
 }
