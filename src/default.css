@@ -310,4 +310,12 @@ input{
     height: 30px;
 }
 
+/* Info Session Styling */
+#host_button{
+    display: block;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
 
