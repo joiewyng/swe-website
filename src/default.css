@@ -334,3 +334,7 @@ input{
     font-weight:bold;
 }
 
+#past_sponsor_text{
+    text-align: center;
+    display:block;
+}

@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import Footer from './components/footerComponent/footer';
 import Homepage from './components/pages/homePage';
 import InformationSession from './components/pages/corporate_info'
+import Sponsorship from './components/pages/sponsorship'
 
 //includes
 import './default.css';
@@ -15,7 +16,7 @@ class App extends Component {
       <div className="App">
         <Homepage />
         <Footer />
-        <InformationSession />
+        <Sponsorship />
       </div>
     );
   }
