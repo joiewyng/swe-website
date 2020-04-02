@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../../default.css';
-import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -25,35 +24,35 @@ class Sponsorship extends Component {
                             <Container>
                                 <Row>
                                     <Col>
-                                        <img src={require("../../images/corporate/real_cap_one.png")}></img>
+                                        <img alt="capital one" src={require("../../images/corporate/real_cap_one.png")}></img>
                                     </Col>
                                     <Col>                                       
-                                        <img src={require("../../images/corporate/microsoft.png")}></img>
+                                        <img alt="microsoft" src={require("../../images/corporate/microsoft.png")}></img>
                                     </Col>
                                     <Col>                                       
-                                        <img src={require("../../images/corporate/amex.png")}></img>
+                                        <img alt="american express" src={require("../../images/corporate/amex.png")}></img>
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Col>
-                                        <img src={require("../../images/corporate/shell.png")}></img>
+                                        <img alt="shell" src={require("../../images/corporate/shell.png")}></img>
                                     </Col>
                                     <Col>                                       
-                                        <img src={require("../../images/corporate/new_schlumberger.png")}></img>
+                                        <img alt="schlumberger" src={require("../../images/corporate/new_schlumberger.png")}></img>
                                     </Col>
                                     <Col>                                       
-                                        <img src={require("../../images/corporate/harris.png")}></img>
+                                        <img alt="harris" src={require("../../images/corporate/harris.png")}></img>
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Col>
-                                        <img src={require("../../images/corporate/phillips.png")}></img>
+                                        <img alt="phillips" src={require("../../images/corporate/phillips.png")}></img>
                                     </Col>
                                     <Col>                                       
-                                        <img src={require("../../images/corporate/boeing.png")}></img>
+                                        <img alt= "boeing" src={require("../../images/corporate/boeing.png")}></img>
                                     </Col>
                                     <Col>                                       
-                                        <img src={require("../../images/corporate/lockheed.png")}></img>
+                                        <img alt="lockheed martin" src={require("../../images/corporate/lockheed.png")}></img>
                                     </Col>
                                 </Row>
                             </Container>
