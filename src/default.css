@@ -318,8 +318,19 @@ input{
     margin-bottom:20px;
 }
 
-.question{
-    font-weight: bold;
+.faq{
+    background-color:#666082;
+    color:white;
+    padding-left:2%;
 }
 
+.subtitle{
+    display: block;
+    margin-left:0;
+}
+
+.link{
+    color:black;
+    font-weight:bold;
+}
 
