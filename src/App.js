@@ -16,6 +16,7 @@ class App extends Component {
       <div className="App">
         <Homepage />
         <Footer />
+        <InformationSession/>
         <Sponsorship />
       </div>
     );
