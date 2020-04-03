@@ -23,52 +23,39 @@ class Sponsorship extends Component {
                             <h1 className="row-heading" id="past_sponsor_text">Past Sponsors:</h1>
                             <Container>
                                 <Row>
-                                    <Col>
+                                    <Col className="company_image">
                                         <img alt="capital one" src={require("../../images/corporate/real_cap_one.png")}></img>
                                     </Col>
-                                    <Col>                                       
+                                    <Col className="company_image">                                       
                                         <img alt="microsoft" src={require("../../images/corporate/microsoft.png")}></img>
                                     </Col>
-                                    <Col>                                       
+                                    <Col className="company_image">                                       
                                         <img alt="american express" src={require("../../images/corporate/amex.png")}></img>
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <Col>
+                                    <Col className="company_image">
                                         <img alt="shell" src={require("../../images/corporate/shell.png")}></img>
                                     </Col>
-                                    <Col>                                       
+                                    <Col className="company_image">                                       
                                         <img alt="schlumberger" src={require("../../images/corporate/new_schlumberger.png")}></img>
                                     </Col>
-                                    <Col>                                       
+                                    <Col className="company_image">                                       
                                         <img alt="harris" src={require("../../images/corporate/harris.png")}></img>
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <Col>
+                                    <Col className="company_image">
                                         <img alt="phillips" src={require("../../images/corporate/phillips.png")}></img>
                                     </Col>
-                                    <Col>                                       
+                                    <Col className="company_image">                                       
                                         <img alt= "boeing" src={require("../../images/corporate/boeing.png")}></img>
                                     </Col>
-                                    <Col>                                       
+                                    <Col className="company_image">                                       
                                         <img alt="lockheed martin" src={require("../../images/corporate/lockheed.png")}></img>
                                     </Col>
                                 </Row>
                             </Container>
-                            {/* <Container fluid>
-                                <Row>
-                                    <Col xs={6} md={4}>
-                                    <Image src="../../images/fa19/2019-SWE-eboard.JPG" rounded />
-                                    </Col>
-                                    <Col xs={6} md={4}>
-                                    <Image src="../../images/fa19/2019-SWE-eboard.JPG" roundedCircle />
-                                    </Col>
-                                    <Col xs={6} md={4}>
-                                    <Image src="../../images/fa19/2019-SWE-eboard.JPG" thumbnail />
-                                    </Col>
-                                </Row>
-                            </Container> */}
                     </div>
                 </div>
             </div>

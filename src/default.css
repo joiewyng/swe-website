@@ -7,6 +7,10 @@ body {
     height: 100%;
 }
 
+.row{
+    margin-right:0;
+}
+
 a { 
     text-decoration: none;
     cursor: pointer;
@@ -338,3 +342,8 @@ input{
     text-align: center;
     display:block;
 }
+
+.company_image{
+    padding-left:0;
+}
+
