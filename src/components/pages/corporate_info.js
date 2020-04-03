@@ -46,12 +46,13 @@ class InformationSession extends Component {
                                     <b>When are the best times to hold an info session?</b>
                                 </Accordion.Toggle>
                                 <Accordion.Collapse eventKey="0">
-                                <Card.Body>Classes officially end at 4:25pm each day. Career Services would like to standardize
-                                session times, and so we will be offering sessions at 4:30pm, 6:00pm, and 7:30pm.
-                                For engineers, Tuesday and Thursday  evenings are preliminary (midterm) exam nights.
-                                To avoid possible conflicts, please see the fall preliminary exam schedule
-                                or fall final exam schedule. Exams for the following courses are large lectures
-                                and tend to be busy times for engineers: MATH 1910, 1920, 2930, 2940, PHYS 1112, 2213, 2214,
+                                <Card.Body>Classes officially end at 4:25pm each day. The best times to hold events are in the evenings from 4:30-9PM.  
+                                Events are typically an hour long and there are 15 minutes after the session to further connect with students and cleanup. 
+                                If your event will take place in the morning or afternoon for a coffee chat or your event will take longer than an hour, 
+                                as some in the past have done a joint case competition and info session, please reach out to cornell.swe.cr@gmail.com to 
+                                arrange a special time for your event. For engineers, Tuesday and Thursday  evenings are preliminary (midterm) exam nights.
+                                To avoid possible conflicts, please see the fall preliminary exam schedule or fall final exam schedule. Exams for the 
+                                following courses are large lectures  and tend to be busy times for engineers: MATH 1910, 1920, 2930, 2940, PHYS 1112, 2213, 2214,
                                 CHEM 2090, CS courses, ENGRD courses, and ENGRI courses.</Card.Body>
                                 </Accordion.Collapse>
                             </Card>
