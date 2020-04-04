@@ -8,7 +8,7 @@ class Sponsorship extends Component {
     render() {
         return (
             <div>
-                <div className="container-fluid faq">
+                <div className="container-fluid purple_header">
                     <div className="row subtitle">
                         <h1 className="row-heading">Sponsorship</h1>
                         <div>

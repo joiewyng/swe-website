@@ -8,16 +8,17 @@ class InformationSession extends Component {
     render() {
         return (
             <div>
-                <div className="container-fluid faq">
+                <div className="container-fluid purple_header">
                     <div className="row subtitle">
-                        <h1 className="row-heading" id="host_title">Host an Information Session</h1>
+                        <h1 className="row-heading">Host an Information Session</h1>
                         <div>
                             <p>The Cornell Society of Women Engineers plans, coordinates, and advertises
                             interactive sessions for Cornell Engineering students to meet with visiting corporations.
                             These sessions provide students with opportunites to meet company representatives in an 
                             informal setting and are avenues for companies to recruit students for permanent and 
                             internship positions, increasing company recognition among students. They are open to 
-                            all students on campus.</p>
+                            all students on campus.
+                            </p>
                         </div>
                     </div>
                 </div>

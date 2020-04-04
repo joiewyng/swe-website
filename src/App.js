@@ -6,6 +6,7 @@ import Footer from './components/footerComponent/footer';
 import Homepage from './components/pages/homePage';
 import InformationSession from './components/pages/corporate_info'
 import Sponsorship from './components/pages/sponsorship'
+import NetworkingDinner from './components/pages/pnd'
 
 //includes
 import './default.css';
@@ -18,6 +19,7 @@ class App extends Component {
         <Footer />
         <InformationSession/>
         <Sponsorship />
+        <NetworkingDinner/>
       </div>
     );
   }
